@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/google/marlin/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/google/marlin/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/google/marlin/proprietary/bin/iop:system/bin/iop \
     vendor/google/marlin/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/google/marlin/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/google/marlin/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -95,8 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/google/marlin/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/google/marlin/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/google/marlin/proprietary/lib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
+    vendor/google/marlin/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
     vendor/google/marlin/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/google/marlin/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/google/marlin/proprietary/lib64/libqti-iop-client.so:system/lib64/libqti-iop-client.so \
+    vendor/google/marlin/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/google/marlin/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
     vendor/google/marlin/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/google/marlin/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
